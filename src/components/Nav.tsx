@@ -34,7 +34,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6">
         {/* Brand */}
         <div className="flex items-center gap-3">
-          <div className="font-['Codec'] text-xl font tracking-[-0.05em] text-gray-900 select-none">
+          <div className="font-['Codec'] text-xl font normal tracking-[-0.1em] text-gray-900 select-none">
             vita<span className="text-emerald-600">codex</span>
           </div>
           <span className="hidden sm:inline font-mono text-[9px] uppercase tracking-[0.18em] text-gray-400 border border-gray-200 rounded px-2 py-0.5">
@@ -57,7 +57,7 @@ export function Nav() {
 
         {/* CTA */}
         <a
-          href="https://vitacodex.life"
+          href="https://demoapp.vitacodex.life/"
           target="_blank"
           rel="noopener noreferrer"
           className="rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-emerald-700 hover:shadow-[0_0_24px_rgba(29,158,117,.3)]"
