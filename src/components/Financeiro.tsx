@@ -46,7 +46,7 @@ function MetricCard({
 
   return (
     <div className="rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
-      <div className="font-['Play'] text-3xl font-bold tracking-[-0.04em]" style={{ color: accent }}>
+      <div className="font-['Codec Pro'] text-3xl font-bold tracking-[-0.04em]" style={{ color: accent }}>
         {displayed}
       </div>
       <div className="mt-1 text-sm font-medium text-gray-900">{label}</div>
@@ -142,7 +142,7 @@ export function Financeiro() {
             <span className="font-mono">06</span>
             Projeção financeira
           </div>
-          <h2 className="font-['Codec Pro'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             Trabalhamos com dois cenários.<br />
             <span className="text-emerald-600">Mesma arquitetura. Velocidades diferentes.</span>
           </h2>
