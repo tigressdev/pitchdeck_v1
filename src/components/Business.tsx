@@ -58,7 +58,7 @@ export function Business() {
             <span className="font-mono">05</span>
             Modelo de negócios
           </div>
-          <h2 className="font-['Play'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             A interface encanta o usuário.<br />
             <span className="text-emerald-600">A API monetiza para todos os stakeholders.</span>
           </h2>
