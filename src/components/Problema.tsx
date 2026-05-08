@@ -27,7 +27,7 @@ export function Problema() {
             <span className="font-mono">01</span>
             Problema
           </div>
-          <h2 className="font-['Play'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
+          <h2 className="font-['Rethink Sans'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
             O gargalo não é gerar dados genéticos.<br />
             <span className="text-emerald-600">É transformá-los em decisão clínica real.</span>
           </h2>
