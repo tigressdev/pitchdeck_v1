@@ -27,7 +27,7 @@ export function Problema() {
             <span className="font-mono">01</span>
             Problema
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
+          <h2 className="font-['Play'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl leading-[1.05]">
             O gargalo não é gerar dados genéticos.<br />
             <span className="text-emerald-600">É transformá-los em decisão clínica real.</span>
           </h2>
@@ -52,7 +52,7 @@ export function Problema() {
               <div className={`absolute top-0 left-0 right-0 h-0.5 ${prob.topBarClass} rounded-t-2xl`} />
 
               {/* Number */}
-              <div className="mb-5 font-mono text-5xl font-light text-gray-100 select-none leading-none">
+              <div className="mb-5 font-mono text-5xl font-light text-gray-400 select-none leading-none">
                 {prob.id}
               </div>
 
