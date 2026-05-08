@@ -92,7 +92,7 @@ export function Hero() {
             variants={itemVariants}
             className="mt-6 max-w-xl text-lg leading-8 text-gray-600"
           >
-            VitaCodex transforma SNPs genéticos brutos em insights clínicos acionáveis.
+            VitaCodex transforma dados genéticos brutos em insights clínicos acionáveis.
             API-first. Confidence gate. Zero alucinação de dados.
           </motion.p>
 
@@ -104,9 +104,9 @@ export function Hero() {
             {STATS.map(({ value, label }) => (
               <div
                 key={label}
-                className="rounded-2xl border border-gray-200 bg-white p-4 shadow-sm hover:border-emerald-200 hover:bg-emerald-50/50 transition-colors"
+                className="rounded-2xl border border-gray-300 bg-white p-4 shadow-sm hover:border-emerald-200 hover:bg-emerald-50/50 transition-colors"
               >
-                <div className="font-['Syne'] text-2xl font-bold text-emerald-600">{value}</div>
+                <div className="font-['Syne'] text-xl font-bold text-emerald-600">{value}</div>
                 <div className="mt-1 text-xs uppercase tracking-[0.15em] text-gray-400">{label}</div>
               </div>
             ))}
@@ -126,7 +126,7 @@ export function Hero() {
               Ver o problema →
             </a>
             <a
-              href="https://vitacodex.life"
+              href="https://vitacodex.life/index/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-medium text-gray-400 transition hover:text-emerald-600 underline-offset-4 hover:underline"
