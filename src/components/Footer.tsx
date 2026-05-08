@@ -47,7 +47,7 @@ export function Footer() {
               Solicitar acesso early access
             </a>
             <a
-              href="https://vitacodex.life"
+              href="https://demoapp.vitacodex.life/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-full border border-gray-700 px-8 py-4 text-sm font-medium text-gray-300 transition hover:border-gray-500 hover:text-white"
@@ -85,7 +85,7 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6 text-xs text-gray-600">
-            <a href="https://vitacodex.life" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
+            <a href="https://vitacodex.life/index/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition-colors">
               vitacodex.life
             </a>
             <span>·</span>
