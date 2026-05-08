@@ -21,7 +21,7 @@ function MarketCard({ item, index }: { item: (typeof MARKET)[0]; index: number }
       <div className="mb-2 font-mono text-xs font-semibold uppercase tracking-[0.3em]" style={{ color: accent }}>
         {item.label}
       </div>
-      <div className="font-['Syne'] text-5xl font-bold tracking-[-0.04em] text-gray-900 md:text-6xl">
+      <div className="font-['Play'] text-5xl font-bold tracking-[-0.04em] text-gray-900 md:text-6xl">
         {item.value}
       </div>
       <p className="mt-3 text-sm leading-7 text-gray-500">{item.desc}</p>
@@ -163,7 +163,7 @@ export function Business() {
 
         {/* ICP grid */}
         <div className="mb-6 text-center">
-          <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.04em] text-gray-900">
+          <h3 className="font-['Play'] text-2xl font-bold tracking-[-0.04em] text-gray-900">
             4 ICPs validados por entrevistas.
           </h3>
           <p className="mt-2 text-sm text-gray-400">5 stakeholders entrevistados. Problema confirmado em todos os perfis.</p>
