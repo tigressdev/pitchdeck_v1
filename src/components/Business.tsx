@@ -58,7 +58,7 @@ export function Business() {
             <span className="font-mono">05</span>
             Modelo de negócios
           </div>
-          <h2 className="font-['Syne'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
+          <h2 className="font-['Play'] text-4xl font-bold tracking-[-0.05em] text-gray-900 md:text-5xl">
             A interface encanta o usuário.<br />
             <span className="text-emerald-600">A API monetiza para todos os stakeholders.</span>
           </h2>
@@ -87,7 +87,7 @@ export function Business() {
               <div className="mb-3 text-xs uppercase tracking-[0.22em] text-emerald-600">
                 Modelo de receita · SaaS por paciente processado
               </div>
-              <h3 className="font-['Syne'] text-2xl font-bold tracking-[-0.04em] text-gray-900 md:text-3xl">
+              <h3 className="font-['Play'] text-2xl font-bold tracking-[-0.04em] text-gray-900 md:text-3xl">
                 R$18k/mês por 1.000 pacientes.
               </h3>
               <p className="mt-4 text-base leading-8 text-gray-600">
